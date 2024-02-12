@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 700px;
+}
+.container .add_task_feild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.container .add_task_feild input {
+  flex: 1;
+  outline: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.container .add_task_feild .add_task_btn {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+.container .tasks_type_filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+.container .tasks_type_filter div {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.container .tasks_container {
+  width: 80%;
+  background: lightblue;
+  border-radius: 5px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+}
+.container .tasks_container .task {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  justify-content: space-between;
+}
+.container .tasks_container .make_task_done {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
